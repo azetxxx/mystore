@@ -46,5 +46,3 @@ class Basket(models.Model):
 
     def subtotal_sum(self):
         return self.product.price * self.quantity
-
-
